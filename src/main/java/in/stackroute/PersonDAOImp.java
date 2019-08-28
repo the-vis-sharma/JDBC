@@ -1,13 +1,26 @@
 package in.stackroute;
 
+import org.springframework.beans.factory.annotation.Autowired;
+import org.springframework.stereotype.Repository;
+
+import javax.sql.DataSource;
 import java.sql.*;
 import java.util.ArrayList;
 import java.util.List;
 
+@Repository
 public class PersonDAOImp implements PersonDAO {
+
+    @Autowired
+    private DataSource dataSource;
+
+    public void setDataSource(DataSource dataSource) {
+        this.dataSource = dataSource;
+    }
+
     @Override
     public void createPerson() {
-        try (Connection conn = MyConnection.getConnection()){
+        try (Connection conn = dataSource.getConnection()){
             Statement stmt = conn.createStatement();
             System.out.println(stmt.executeUpdate("create table person (id integer, name char(30))"));
             stmt.close();
@@ -19,7 +32,7 @@ public class PersonDAOImp implements PersonDAO {
     @Override
     public Person getPersonById(int id) {
         Person person = null;
-        try (Connection conn = MyConnection.getConnection()){
+        try (Connection conn = dataSource.getConnection()){
             String sql = "select * from person where id = ? limit 1";
             PreparedStatement stmt = conn.prepareStatement(sql);
             stmt.setInt(1, id);
@@ -37,7 +50,7 @@ public class PersonDAOImp implements PersonDAO {
     @Override
     public List<Person> getAllPerson() {
         List<Person> personList = new ArrayList<>();
-        try (Connection conn = MyConnection.getConnection()){
+        try (Connection conn = dataSource.getConnection()){
             String sql = "select * from person";
             Statement stmt = conn.createStatement();
             ResultSet rs = stmt.executeQuery(sql);
@@ -53,7 +66,7 @@ public class PersonDAOImp implements PersonDAO {
 
     @Override
     public void addPerson(Person person) {
-        try (Connection conn = MyConnection.getConnection()){
+        try (Connection conn = dataSource.getConnection()){
             String sql = "insert  into  person values (?, ?)";
             PreparedStatement stmt = conn.prepareStatement(sql);
             stmt.setInt(1, person.getId());

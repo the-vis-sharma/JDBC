@@ -1,7 +1,19 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="99315664-1a65-4597-8832-aa123a0150b6" name="Default Changelist" comment="" />
+    <list default="true" id="99315664-1a65-4597-8832-aa123a0150b6" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/jdbcnormal.iml" beforeDir="false" afterPath="$PROJECT_DIR$/jdbcnormal.iml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/in/stackroute/App.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/in/stackroute/App.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/in/stackroute/Person.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/in/stackroute/Person.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/in/stackroute/PersonDAO.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/in/stackroute/PersonDAO.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/in/stackroute/PersonDAOImp.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/in/stackroute/PersonDAOImp.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/in/stackroute/App.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/in/stackroute/App.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/in/stackroute/Person.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/in/stackroute/Person.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/in/stackroute/PersonDAOImp.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/in/stackroute/PersonDAOImp.class" afterDir="false" />
+    </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -13,8 +25,17 @@
       <list>
         <option value="Interface" />
         <option value="Class" />
+        <option value="spring-beans.schema" />
       </list>
     </option>
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_BRANCH_BY_REPOSITORY">
+      <map>
+        <entry key="$PROJECT_DIR$" value="jdbc-without-spring" />
+      </map>
+    </option>
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
   </component>
   <component name="MavenImportPreferences">
     <option name="importingSettings">
@@ -24,7 +45,11 @@
     </option>
   </component>
   <component name="ProjectId" id="1Q3KtAU05LaUNp0Y4DPGYgVZ4Ul" />
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true">
+    <ConfirmationsSetting value="1" id="Add" />
+  </component>
   <component name="PropertiesComponent">
+    <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="aspect.path.notification.shown" value="true" />
     <property name="node.js.detected.package.eslint" value="true" />
@@ -33,6 +58,14 @@
     <property name="node.js.path.for.package.tslint" value="project" />
     <property name="node.js.selected.package.eslint" value="(autodetect)" />
     <property name="node.js.selected.package.tslint" value="(autodetect)" />
+    <property name="project.structure.last.edited" value="Modules" />
+    <property name="project.structure.proportion" value="0.15" />
+    <property name="project.structure.side.proportion" value="0.2" />
+  </component>
+  <component name="RecentsManager">
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/src/main/resources" />
+    </key>
   </component>
   <component name="RunDashboard">
     <option name="ruleStates">
@@ -63,6 +96,9 @@
     <recent_temporary>
       <list>
         <item itemvalue="Application.App" />
+        <item itemvalue="Application.App" />
+        <item itemvalue="Application.App" />
+        <item itemvalue="Application.App" />
       </list>
     </recent_temporary>
   </component>
@@ -76,11 +112,22 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1566994051196</updated>
-      <workItem from="1566994054490" duration="5612000" />
+      <workItem from="1566994054490" duration="8217000" />
     </task>
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
     <option name="version" value="1" />
+  </component>
+  <component name="Vcs.Log.Tabs.Properties">
+    <option name="TAB_STATES">
+      <map>
+        <entry key="MAIN">
+          <value>
+            <State />
+          </value>
+        </entry>
+      </map>
+    </option>
   </component>
 </project>
