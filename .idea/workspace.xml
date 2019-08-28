@@ -2,17 +2,7 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="99315664-1a65-4597-8832-aa123a0150b6" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/jdbcnormal.iml" beforeDir="false" afterPath="$PROJECT_DIR$/jdbcnormal.iml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/in/stackroute/App.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/in/stackroute/App.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/in/stackroute/Person.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/in/stackroute/Person.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/in/stackroute/PersonDAO.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/in/stackroute/PersonDAO.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/in/stackroute/PersonDAOImp.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/in/stackroute/PersonDAOImp.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/in/stackroute/App.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/in/stackroute/App.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/in/stackroute/Person.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/in/stackroute/Person.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/in/stackroute/PersonDAOImp.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/in/stackroute/PersonDAOImp.class" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -112,7 +102,7 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1566994051196</updated>
-      <workItem from="1566994054490" duration="8217000" />
+      <workItem from="1566994054490" duration="8348000" />
     </task>
     <servers />
   </component>
