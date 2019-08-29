@@ -1,6 +1,7 @@
 package in.stackroute;
 
 import org.springframework.context.ApplicationContext;
+import org.springframework.context.annotation.AnnotationConfigApplicationContext;
 import org.springframework.context.support.ClassPathXmlApplicationContext;
 
 /**
@@ -12,10 +13,9 @@ public class App
     public static void main( String[] args )
     {
         System.out.println( "Hello World!" );
-        ApplicationContext context = new ClassPathXmlApplicationContext("Spring.xml");
-        PersonDAO personDAO = context.getBean("personDAO", PersonDAO.class);
+        ApplicationContext context = new AnnotationConfigApplicationContext(AppConfig.class);
+        PersonDAO personDAO = context.getBean("personDAO", PersonDAOImp.class);
         //personDAO.createPerson();
-
         /*Person person = new Person(1, "visnu");
         personDAO.addPerson(person);
 

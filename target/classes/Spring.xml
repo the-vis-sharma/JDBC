@@ -4,9 +4,10 @@
        xmlns:context="http://www.springframework.org/schema/context"
        xsi:schemaLocation="http://www.springframework.org/schema/beans http://www.springframework.org/schema/beans/spring-beans.xsd http://www.springframework.org/schema/context http://www.springframework.org/schema/context/spring-context.xsd">
 
-    <context:annotation-config></context:annotation-config>
+    <!--<context:annotation-config></context:annotation-config>
 
     <context:component-scan base-package="in.stackroute"></context:component-scan>
+
 
     <bean id="dataSource" class="org.springframework.jdbc.datasource.DriverManagerDataSource">
         <property name="driverClassName" value="com.mysql.jdbc.Driver"></property>
@@ -14,9 +15,13 @@
         <property name="username" value="root"></property>
         <property name="password" value="root"></property>
     </bean>
-    
-    <bean id="personDAO" class="in.stackroute.PersonDAOImp">
+
+    <bean id="template" class="org.springframework.jdbc.core.JdbcTemplate">
         <property name="dataSource" ref="dataSource"></property>
     </bean>
+    
+    <bean id="personDAO" class="in.stackroute.PersonDAOImp">
+        <property name="template" ref="template"></property>
+    </bean>-->
 
 </beans>
